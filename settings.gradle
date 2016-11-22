@@ -1,0 +1,3 @@
+rootProject.name = 'ejb-processor'
+include 'ejb-processor-api'
+

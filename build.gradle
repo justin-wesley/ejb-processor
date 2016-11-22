@@ -1,0 +1,17 @@
+group 'com.wesleyhome'
+version '1.0.0-SNAPSHOT'
+
+apply plugin: 'java'
+
+sourceCompatibility = 1.8
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+    compile 'javax.enterprise:cdi-api:1.0'
+    testCompile 'org.jboss.weld:weld-core:2.4.1.Final'
+    testCompile 'junit:junit:4.12'
+    testCompile 'org.mockito:mockito-core:2.2.22'
+}
